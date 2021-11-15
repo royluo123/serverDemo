@@ -1,7 +1,7 @@
 package com.example.demo.entity;
 
 public class Info {
-
+    private String uid;
     private String nickname;
     private String gender;
     private int age;
@@ -12,6 +12,14 @@ public class Info {
 
     public String getNickname() {
         return nickname;
+    }
+
+    public void seUid(String uid) {
+        this.uid = uid;
+    }
+
+    public String getUid() {
+        return uid;
     }
 
     public void setGender(String gender) {

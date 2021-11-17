@@ -12,7 +12,7 @@ public class DBHelper {
     //MySQL配置时的用户名
     static final String DB_USER = "luoxinwu";
     //MySQL配置时的密码
-    static final String DB_PSWD = "royluo123";
+    static final String DB_PSWD = "123456";
 
     public ResultSet excuteSQL(String sql) {
         //声明Connection对象
